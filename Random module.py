@@ -1,5 +1,5 @@
 # Rock,Scissor,Paper Game
-'''import random
+import random
 print("---WELCOME TO Rock,Scissor,Paper Game---")
 print("TYPE STOP TO STOP THE GAME")
 while True:
@@ -17,10 +17,10 @@ while True:
     elif (user=='paper' and system=='rock') or (user=='scissor' and system=='paper') or (user=='rock' and system=='scissor'):
          print("User Won The Game...")
     else:
-        print("Invalid Choice...")'''
+        print("Invalid Choice...")
 
 #Dice Game
-'''import random
+import random
 print("---WELCOME TO THE DICE GAME---")
 print("Enter '0' to stop the game")
 user_score=0
@@ -59,10 +59,10 @@ while True:
     elif 1<=system<=5:
         system_score+=system
 print(user_score)
-print(system_score)'''
+print(system_score)
 
 #method 2
-'''import random
+import random
 print("---WELCOME TO THE DICE GAME---")
 print("---LET'S PLAY THE GAME---")
 print("Enter 0 to stop the game")
@@ -111,22 +111,22 @@ print(system_score)
 if user_score > system_score:
     print("USER WON THE GAME")
 else:
-    print("SYSTEM WON THE GAME")'''
+    print("SYSTEM WON THE GAME")
 
 #Find Crush's Favorite Food
-'''import random
+import random
 food=['Biryani','Mutton','Kheer','Chicken','poori','Roti','Masala Dosa']
 fav_food=random.choice(food)
-print(f'Jaanu Favorite Food is "{fav_food}"')'''
+print(f'Jaanu Favorite Food is "{fav_food}"')
 
 #predict future of your bestfriend
-'''import random
+import random
 future=['Dcoctor','Teacher','Software Engineer','Thief','CM','Police']
 option=random.choice(future)
-print(f'My Friend Will Become A {option}')'''
+print(f'My Friend Will Become A {option}')
 
 #LOVE CALCULATOR
-'''import random
+import random
 user=input("Enter your name:")
 crush=input("Enter your crush name:")
 percent=random.uniform(20,100)
@@ -139,10 +139,10 @@ elif 50<=percent<70:
 elif 35<=percent<50:
     print("Love is waste of time...")
 else:
-    print("No one likes you ,focus on carrier")'''
+    print("No one likes you ,focus on carrier")
 
 #Mobile Lock Screen
-'''import time
+import time
 while True:
     sol=0
     attempts=3
@@ -159,12 +159,12 @@ while True:
         print("Locked for 5 Seconds")
         time.sleep(5)
     if sol==1:
-        break'''
+        break
 
 #rock-paper-scissor user will enter the game only if he looses the first attempt
 #if tie continue or exit
 #if user wins game will come to an end
-'''import random
+import random
 print("---WELCOME TO Rock,Scissor,Paper Game---")
 print("TYPE STOP TO STOP THE GAME")
 while True:
@@ -194,10 +194,10 @@ while True:
          print("User Won The Game...")
          break
     else:
-        print("Invalid Choice...")'''
+        print("Invalid Choice...")
 
 #wap to login ton phonepe by entering the correct otp
-'''import random
+import random
 while True:
     OTP=random.randint(1000,9999)
     print("Generated OTP:",OTP)
@@ -206,7 +206,7 @@ while True:
         print("Phonepe Is Logged In Successfully...")
         break
     else:
-        print("Invalid OTP Please Try Again...")'''
+        print("Invalid OTP Please Try Again...")
 
 import random
 percent=random.randint(1,100)
@@ -232,6 +232,7 @@ Love()
 Love()
 Love()
                     
+
 
 
 
